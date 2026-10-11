@@ -1,14 +1,6 @@
-#!/usr/bin/env bash
-
-# Task 08: this script is intentionally buggy.
-# Usage: ./scripts/batch-copy.sh DEST FILE...
-
-destination=$1
-shift
-
-mkdir -p $destination
-
-for file in $@
+#!/bin/bash
+DEST="$1"
+for file in "${@:2}"
 do
-    cp $file $destination/
+  cp "$file" "$DEST"
 done
