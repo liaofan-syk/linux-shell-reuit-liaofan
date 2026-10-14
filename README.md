@@ -1,5 +1,7 @@
 # Linux & Shell Recruit
 
+本仓库是 Linux 入门练习项目，存放 Linux 练习脚本、Makefile、CMake 以及 C 语言代码，帮助初学者熟悉命令行、构建工具和基础 C 编程。
+
 一个面向 Linux / Shell 初学者的项目式招新挑战。
 
 ## 题目结构
